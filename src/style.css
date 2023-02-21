@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px;
+}
+
+button {
+  flex-grow: 1;
+  padding: 10px;
+  color: white;
+  background-color: slategray;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.proPic {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proPic img {
+  height: 100%;
+}
+
+table {
+  min-width: 720px;
+  border-collapse: collapse;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+th,
+td {
+  width: 100%;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04aa6d;
+  color: white;
+}
+
+tr:hover {
+  background-color: #d7fff0;
+}
